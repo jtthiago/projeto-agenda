@@ -60,17 +60,20 @@
     box-shadow: 0 5px 10px 2px var(--clr-dark-shadow-20);
     z-index: 1;
     position: relative;
+    
   }
   
   .header-heading {
     font-size: var(--biggest-font-size);
     text-align: center;
+  
   }
   
   .header-link {
     color: var(--link-light-color);
     text-decoration: none;
     transition: filter var(--transition-fast) ease-in-out;
+    
   }
   
   .header-link:hover {
