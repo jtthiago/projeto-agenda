@@ -10,6 +10,6 @@ urlpatterns = [
     path('', views.index, name='index' ),
 
     path('contact/<int:contact_id>/', views.contact, name='contact' ),
-    path('contact/create/', views.create, name='contact' ),
+    path('contact/create/', views.create, name='create' ),
     
 ]
