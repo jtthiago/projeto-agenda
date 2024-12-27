@@ -5,11 +5,12 @@ from . import models
 class ContactForm(forms.ModelForm):
     first_name = forms.CharField(
         widget=forms.TextInput(
-            attrs={
+            attrs= {
                 'class': 'classe-a classe-b',
                 'placeholder': 'Seu nome aqui',
             }
         ),
+        
         label='Primeiro Nome',
         help_text='Texto de ajuda',
     )
