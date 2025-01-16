@@ -18,6 +18,7 @@ class ContactForm(forms.ModelForm):
         ),
         label='Primeiro Nome',
         help_text='Texto de ajuda para seu usuário',
+        required=False
         )
     
 
